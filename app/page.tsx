@@ -1,21 +1,22 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+// FIX 1: Imported Variants from framer-motion
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { ArrowRight, Download, Terminal, Database, Award, ChevronRight, Zap } from "lucide-react";
 import data from "../data/resume.json";
 
-// Spring transition settings for premium feel
-const spring = { type: "spring", stiffness: 100, damping: 20 };
-const stagger = { animate: { transition: { staggerChildren: 0.1 } } };
-const fadeInUp = {
+// FIX 2: Added `as const` to the type, and typed the variant objects
+const spring = { type: "spring" as const, stiffness: 100, damping: 20 };
+const stagger: Variants = { animate: { transition: { staggerChildren: 0.1 } } };
+const fadeInUp: Variants = {
   initial: { opacity: 0, y: 40 },
   animate: { opacity: 1, y: 0, transition: spring },
 };
 
 export default function Portfolio() {
   const [loading, setLoading] = useState(true);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const[mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2200);
