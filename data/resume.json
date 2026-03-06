@@ -1,0 +1,175 @@
+{
+  "basics": {
+    "name": "Atul Ramgopal Shahu",
+    "title": "Senior Data Engineer",
+    "summary": "Senior Data Engineer with 8+ years of experience designing, owning, and scaling enterprise-grade data platforms. End-to-end owner of the Snowflake Data Platform at Bidgely, responsible for platform architecture, governance, cost optimization, marketplace products, and GenAI analytics enablement.",
+    "location": "India",
+    "email": "atul.shahu75@gmail.com",
+    "phone": "+919970928105",
+    "links": [
+      { "network": "LinkedIn", "url": "@atulshahu" }
+    ]
+  },
+  "achievements":[
+    {
+      "metric": "40%+ Snowflake Cost Saving",
+      "context": "Achieved Snowflake cost reduction multiple times, delivering recurring savings via warehouse right-sizing, query optimization, DBT refactoring, and data lifecycle controls."
+    },
+    {
+      "metric": "Architecture",
+      "context": "Designed and governed Snowflake account architecture, including RBAC model, environment separation, workload isolation, and access standards."
+    },
+    {
+      "metric": "Marketplace",
+      "context": "Led Snowflake Marketplace and Native App (SPCS) development, enabling secure external data and application distribution."
+    },
+    {
+      "metric": "GenAI",
+      "context": "Driving GenAI analytics enablement on Snowflake using Cortex Analyst, Cortex Search, and Streamlit for natural-language insights."
+    },
+    {
+      "metric": "Ingestion",
+      "context": "Architected and operated high-volume ingestion pipelines using Firehose, S3, Spark (EMR), Snowpipe, and COPY INTO."
+    },
+    {
+      "metric": "Platform",
+      "context": "Owned DBT at platform scale, including modeling standards, macros, testing strategy, documentation, and CI/CD pipelines."
+    },
+    {
+      "metric": "Leadership",
+      "context": "Act as technical owner and decision-maker for data platform strategy, evolution, and best practices across teams."
+    }
+  ],
+  "experience":[
+    {
+      "company": "Bidgely Technologies",
+      "role": "Senior Data Engineer",
+      "dates": "Nov 2021 - Present",
+      "location": "",
+      "bullets":[
+        "End-to-end owner of the Snowflake Data Platform, responsible for architecture, RBAC, governance, billing, performance optimization, and platform reliability.",
+        "Architected scalable ingestion pipelines using AWS Firehose → S3 → Spark (EMR) → Snowflake, supporting high-volume batch and near-real-time workloads.",
+        "Owned DBT at platform scale, defining modeling standards, tests, macros, documentation, and CI/CD pipelines to enable reliable analytics across teams.",
+        "Improved data quality, performance, and analytics velocity through standardized transformations.",
+        "Ensured platform reliability and performance across large-scale data volumes.",
+        "Optimized Spark workloads on EMR through job tuning, partitioning strategies, and resource sizing, significantly improving pipeline performance and cost efficiency.",
+        "Led Snowflake Marketplace initiatives, including data listings and Native App development using Snowpark Container Services (SPCS).",
+        "Built GenAI-powered analytics solutions using Cortex Analyst, Cortex Search, and Streamlit, enabling natural language insights and enterprise search.",
+        "Lead and mentor teams on Snowflake, DBT, and platform best practices."
+      ]
+    },
+    {
+      "company": "LTIMindtree",
+      "role": "Senior Data Engineer",
+      "dates": "Nov 2021 - Oct 2023",
+      "location": "",
+      "bullets":[
+        "Responsible for drafting project execution strategy, along with problem statements, solutions, and approach for insurance client.",
+        "Worked on technical documentation, strategy, approach and solutions to snowflake migration and enhancement.",
+        "Working as Snowflake and DBT SME for implementing migration strategy and processes.",
+        "Created DBT models for all the data transformation.",
+        "Implemented Github and Gitlab devops pipelines for DBT and snowflake deployment",
+        "Worked on complex views and tables to meet reporting needs for different stakeholders.",
+        "Client engagement experience from requirement gathering and presenting solutions to various problems.",
+        "Created new data validation processes to validate the data at different levels after every data load activity."
+      ]
+    },
+    {
+      "company": "Fractal Analytics",
+      "role": "Data Engineer",
+      "dates": "Feb 2021 - Oct 2021",
+      "location": "",
+      "bullets":[
+        "Snowflake Developer with Azure ADF and DevOps exposure",
+        "ELT and ETL using DBT (Data Build Tool)",
+        "Worked with a Retailer client on Data Engineering for Revenue Management Dashboard.",
+        "Created ADF pipelines for data load and orchestration.",
+        "Client engagement experience from requirement gathering and presenting solutions to various problems"
+      ]
+    },
+    {
+      "company": "InfoCepts Technologies",
+      "role": "Analyst",
+      "dates": "Nov 2018 - Feb 2021",
+      "location": "",
+      "bullets":[
+        "ETL/ELT developer with hands on experience to AWS and Snowflake",
+        "Worked on PII data with masking and tokenisation methodologies.",
+        "Experienced on SFTP and PGP encryption.",
+        "Hands on experience on data warehousing of Media and Retail domain data.",
+        "End to End Project experience on AWS, Informatica Power Center, Talend, Tableau and PowerBi",
+        "Experience of working on huge volume of Youtube data and creating a warehouse in snowflake"
+      ]
+    },
+    {
+      "company": "BYJU'S",
+      "role": "Associate Analyst",
+      "dates": "Jun 2018 - Oct 2018",
+      "location": "",
+      "bullets":[
+        "Assisted on data warehousing for transactional system",
+        "Sales data analysis"
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "role": "Software Engineer",
+      "dates": "Oct 2017 - May 2018",
+      "location": "",
+      "bullets":[
+        "Java development",
+        "Data warehousing and Informatica",
+        "Informatica Powercenter hands on experience"
+      ]
+    }
+  ],
+  "skills":[
+    {
+      "group": "Snowflake",
+      "items":["Account Architecture", "RBAC & Security", "Warehouses & Workload Isolation", "Resource Monitors & Cost Governance", "Query Profiling & Optimization", "Clustering & Search Optimization", "Snowpipe", "Streams & Tasks", "Notebooks", "Cortex Analyst"]
+    },
+    {
+      "group": "Analytics Engineering",
+      "items":["DBT (models, macros, tests, CI/CD, performance refactors)"]
+    },
+    {
+      "group": "Cloud & Data Infra",
+      "items":["AWS (S3, EMR, Firehose, IAM, Monitoring)", "Spark", "Airflow", "Python", "SQL"]
+    },
+    {
+      "group": "GenAI & Apps",
+      "items":["Cortex Analyst", "Cortex Search", "Streamlit", "Snowflake Native Apps (SPCS)"]
+    },
+    {
+      "group": "Fields of Expertise",
+      "items":["Databricks", "ELT/ETL and Data Warehousing", "Azure", "Glue & ADF", "Github and Gitlab", "Data Modelling", "Data Encryption and Tokenization", "Power Bi and Tableau", "Scripting", "Big data", "Informatica and Talend"]
+    },
+    {
+      "group": "Domain",
+      "items":["Utility", "Insurance", "Retail", "Media", "Banking"]
+    }
+  ],
+  "education":[
+    {
+      "institution": "Yeshwantrao Chavan College of Engineering",
+      "degree": "Bachelor of Engineering - Electronics",
+      "dates": "2013 - 2017",
+      "bullets":[
+        "Gold medalist in graduation with CGPA of 9.45"
+      ]
+    }
+  ],
+  "certifications":[
+    "SnowPro Core Certified",
+    "DBT Fundamentals",
+    "DBT Advance",
+    "Google Data Analytics Professional Certificate",
+    "IBM Data Science Professional Certificate",
+    "AWS Certified Cloud Practitioner",
+    "11.011: Microstrategy Certified Specialist Analyst",
+    "Oracle Certified Java Associate, Java SE 7 Programmer"
+  ],
+  "projects":[],
+  "awards": [],
+  "extra":[]
+}
